@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) {
+    
+.project{
+    
+    border-radius: 10px;
+    height: 90vh;
+    width: 95vw;
+    gap: 7vh;
+  display: flex;
+  flex-direction: column;
+    padding: 5vh 5vh;
+    background-color: #393939d2;
+    /* background-color: #fff; */
+}
+.img
+{
+
+    width: 75vw;
+    
+    /* background-color: #fff; */
+   background-image: url("https://harryjatkins.com/_astro/upskill.48605c54_Z1LyfHw.webp");
+   object-fit: cover;
+   background-position: center;
+   background-size: cover;
+    height: 100vh;
+}
+.details{
+    width:75vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+ text-transform: capitalize;
+    /* background-color: #fff; */
+}
+.name{
+    font-size: 2.5vh;
+   
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #c1c1c1ba;
+    font-weight: bold;
+}
+.m{
+    color: #c1c1c1;
+}
+.id {
+    padding-top: 1vh;
+   padding-left: 1vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c1c1c1ba;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    
+}
+.n{
+    text-transform: capitalize;
+}
+
+.i{
+    padding-top: 1vh;
+   padding-left: 1vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c1c1c1ba;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    
+}
+.a{
+    color: #c1c1c1;
+    text-transform: lowercase;
+    text-decoration: none;
+
+}
+}
